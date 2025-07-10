@@ -19,7 +19,7 @@ const WebcamRecorder = ({ setFeedback }) => {
       formData.append("posture_type", postureType);
 
       try {
-        const res = await fetch("http://127.0.0.1:8000/analyze-frame", {
+        const res = await fetch("https://posture-backend-70l3.onrender.com/analyze-frame", {
           method: "POST",
           body: formData,
         });
