@@ -13,7 +13,7 @@ app = FastAPI()
 # CORS middleware for frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with specific domain in production
+    allow_origins=["https://vercel.com/bnitya18s-projects/posture-detection"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
