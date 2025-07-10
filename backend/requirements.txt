@@ -1,6 +1,6 @@
 fastapi==0.116.0
 uvicorn==0.35.0
-mediapipe-silicon==0.10.9
+mediapipe==0.10.9
 opencv-python==4.9.0.80
 pillow==10.3.0
 python-multipart==0.0.9
