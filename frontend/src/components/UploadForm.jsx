@@ -18,7 +18,7 @@ function UploadForm({ setFeedback }) {
       formData.append('posture_type', postureType);
 
       console.log("📡 Sending request to backend...");
-      const res = await fetch('http://127.0.0.1:8000/analyze', {
+      const res = await fetch('https://posture-backend-70l3.onrender.com/analyze', {
         method: 'POST',
         body: formData,
       });
